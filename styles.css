@@ -9,10 +9,15 @@ font-size:3.5em;
 font-size:3.5em;
 }
 	body ul li {
-font-size:3.5em;
+font-size:3.0em;
 }
  .menu nav ul li {
-		font-size: 3.0em;
+		font-size: 1.9em;
+	}
+.readMore_btn{
+		font-size:1.7em;
+	        height: 60px;
+	
 	}
 }
 /*
@@ -248,7 +253,7 @@ display: block;
 
 
 .readMore_btn {
-  background-color: grey;
+  background-color: #bc3f3f;
   border: none;
   border-radius: 35px;
   color: white;
