@@ -1,0 +1,430 @@
+body{
+	font-family: 'Noto Sans', sans-serif;
+  background: #ab4493;
+	/*background: #F1E9E7;*/
+	margin: 0;
+	padding: 0;
+	
+}
+
+
+
+.contenedor_del_html{
+	/*background-color: black;*/
+	width: 800px;
+	
+	margin: auto;
+
+	
+}
+
+
+.encavezado{
+	background-color: #5DE8D7; 
+	/*width: 1200px;*/
+	height: 50px;
+	margin:auto;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+
+.menu  nav ul li{
+	font-size: 30px;
+	display:flex;
+	list-style: none;
+	float: left;
+	padding:1px 20px; /*espaciado*/
+
+	
+
+}
+
+.menu nav ul li a{
+	color: black;
+	background-color: #F1F5D3 ;
+	text-decoration: none;
+    /*border-right:1px solid blue;*/
+    transition: opacity 300ms;
+    padding: 2px;
+    border: 1px solid #7F8079 ;
+    border-radius: 5px;
+
+
+  
+
+  }
+
+.menu nav ul li a:hover{
+	opacity: 0.6;/*para que cuando paso el cursor se ponga opaco*/
+}
+
+
+
+.contenedor_retrato{
+	/*width: 1200px;*/
+	/*height: 50px;*/
+	margin:auto;
+	background-color: ivory;
+	padding: 30px;
+	border-radius: 10px;
+
+
+
+}
+
+#foto{
+	display: block;
+	margin: auto;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+
+}
+
+.nombre{
+	
+	background-color: ivory;
+	border-radius: 10px;
+	
+}
+.nombre h1{
+	font-size: 50px;
+}
+
+
+
+.nombre p{
+	font-size: 40px;
+}
+
+#mark{
+	color: black;
+	text-align: center;
+}
+
+#front{
+	color: black;
+	text-align: center;
+}
+
+
+
+
+.cuerpo1{
+	background-color: white;
+	/*width: 1200px;*/
+	/*height: 150px;*/
+	margin:auto;
+	text-align: center;
+	border-radius: 10px;
+
+}
+
+
+#sobre_mi{
+	
+	font-size: 40px;
+
+}
+.lista_personal{
+
+	background-color: white;
+	/*width: 1200px;*/
+	/*height: 150px;*/
+	display: block;
+	border-radius: 10px;
+	
+	
+
+	
+}
+
+.lista_personal ul li {
+	display: block;
+	font-size: 1.5em;
+	
+	/*padding: 1px 10px;*/
+	
+	}
+
+
+#sobre_mi_lista{
+
+display: block;
+
+}
+
+.cuerpo2{
+	background-color: white;
+	/*width: 1200px;*/
+	/*height: 150px;*/
+	margin:auto;
+	text-align: center;
+	border-radius: 10px;
+	
+
+}
+
+#habilidades{
+	
+	font-size: 2m;
+	;
+
+}
+
+.lista_habilidades{
+	background-color: white;
+	/*width: 1200px;*/
+	/*height: 1000px;*/
+	display: block;
+	border-radius: 10px;
+	
+	
+
+ 
+	
+	
+
+	}
+
+
+.lista_habilidades ul li {
+	display: block;
+	font-size: 1.5em;
+	padding: 1px 10px;
+	/*border-bottom: solid 0.5px red;*/
+  line-height: 2; /*interlineado*/
+	}
+
+#habilidades_lista{
+	
+display: block;
+/*border-bottom: solid 1px red;*/ 
+
+}
+.div_boton{
+	text-align: center;
+	margin-bottom: 18px;
+	padding-bottom: 10px;
+	border-radius: 10px;
+	
+}
+
+
+.readMore_btn {
+  background-color: grey;
+  border: none;
+  border-radius: 35px;
+  color: white;
+  padding: 5px 10px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #4caf50;
+  cursor: pointer;
+
+
+  
+}
+
+.readMore_btn:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+  
+}
+
+.hideText {
+  display: none;
+  
+}
+
+.showText {
+  display: block;
+
+}
+
+
+
+
+.cuerpo3{
+	background-color: white;
+	/*width: 1200px;*/
+	/*height: 150px;*/
+	margin:auto;
+	text-align: center;
+	border-radius: 10px;
+	
+}
+
+#experiencia{
+	
+	font-size: 2em;
+
+}
+
+.lista_experiencia{
+	background-color: white;
+	/*width: 1200px;*/
+	/*height: 1000px;*/
+	display: block;
+	border-radius: 10px;
+	
+}
+
+.lista_experiencia ul li {
+	display: block;
+	font-size: 1.5em;
+	padding: 1px 10px;
+  line-height: 2; /*interlineado*/
+
+	}
+
+.descripcion {
+	border-bottom: solid 0.5px red;
+}
+
+	#experiencia_lista{
+
+display: block;
+/*border-bottom: solid 3px red;*/ 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact_form{  
+ /* width: 460px;*/
+  /*width: 800px; */
+  height: auto;
+  margin: /*80px*/ auto;
+  text-align: center;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 20px;  
+  background-color: #fbfbfb; 
+  padding-left: 30px; 
+}
+
+
+input{
+  background-color: #fbfbfb; 
+  width: 408px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ab4493; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+
+textarea{
+  background-color: #fbfbfb; 
+  width: 405px; 
+  height: 150px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ab4493; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+  float: center;  
+}
+
+
+button{
+  height: 45px; 
+  padding-left: 5px;
+  padding-right: 5px;   
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  text-transform: uppercase;
+  background-color: #ab4493; 
+  border-color: #ab4493; 
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 420px;   
+  cursor: pointer;
+}
+
+
+button p{
+  color: #fff; 
+}
+
+
+span{
+  color: #ab4493; 
+}
+
+
+.aviso{
+  font-size: 13px;  
+  color: #0e0e0e;  
+}
+
+
+h1{
+  font-size: 39px;  
+  text-align: letf; 
+  padding-bottom: 20px; 
+  color: #ab4493;
+}
+
+
+h3{
+  font-size: 16px; 
+  padding-bottom: 30px;
+  color: #0e0e0e;   
+}
+
+
+p{
+  font-size: 14px; 
+  color: #0e0e0e; 
+}
+
+
+::-webkit-input-placeholder {
+ color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+
+
+.formulario textarea:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+
+
+/* creado por javiniguez.com, Julio 2019 */
