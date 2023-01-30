@@ -1,71 +1,21 @@
-@media screen and (max-width: 700px){
- body p {
-font-size:3.0em;
-}
-	body h1 {
-font-size:3.5em;
-}
-	body h3 {
-font-size:3.5em;
-}
-	body ul li {
-font-size:3.0em;
-}
- .menu nav ul li {
-		font-size: 1.9em;
-	}
-.readMore_btn{
-		font-size:1.7em;
-	        height: 60px;
-	
-	}
-	.nombre h1{
-	font-size: 90px;
-}
-}
-
-/*
-@media screen and (max-width: 300px){
- body p {
-font-size:1.0em;
-}
-	body h1 {
-font-size:1.5em;
-}
-	body h3 {
-font-size:1.5em;
-}
-	body ul li {
-font-size:1.5em;
-}
- .menu nav ul li {
-		font-size: 1.0em;
-	}
-}
-*/
 body{
-	font-family: 'Noto Sans', sans-serif;
-  background: #ab4493;
-	/*background: #F1E9E7;*/
+	font-family: 'robotto', sans-serif;
+    background: #ab4493;
 	margin: 0;
 	padding: 0;
-	
+		
 }
 
 
 .contenedor_del_html{
-	/*background-color: black;*/
 	width: 800px;
-	
 	margin: auto;
 
-	
 }
 
 
 .encavezado{
 	background-color: #5DE8D7; 
-	/*width: 1200px;*/
 	height: 50px;
 	margin:auto;
 	border-radius: 10px;
@@ -74,7 +24,7 @@ body{
 
 
 .menu  nav ul li{
-	/*font-size: 30px;*/
+	font-size: 2.0em;
 	display:flex;
 	list-style: none;
 	float: left;
@@ -88,7 +38,6 @@ body{
 	color: black;
 	background-color: #F1F5D3 ;
 	text-decoration: none;
-    /*border-right:1px solid blue;*/
     transition: opacity 300ms;
     padding: 2px;
     border: 1px solid #7F8079 ;
@@ -106,12 +55,11 @@ body{
 
 
 .contenedor_retrato{
-	/*width: 1200px;*/
-	/*height: 50px;*/
 	margin:auto;
 	background-color: ivory;
 	padding: 30px;
 	border-radius: 10px;
+	margin-bottom: 10px;
 
 
 
@@ -121,8 +69,8 @@ body{
 	display: block;
 	margin: auto;
 	border-radius: 50%;
-	width: 300px;
-	height: 300px;
+	width: 350px;
+	height: 350px;
 
 }
 
@@ -130,26 +78,36 @@ body{
 	
 	background-color: ivory;
 	border-radius: 10px;
+
+
+
 	
 }
 .nombre h1{
-	/*font-size: 50px;*/
+	font-size: 4.0em;
+	margin: 10px;
+
+
 }
 
 
 
 .nombre p{
-	/*font-size: 40px;*/
+	font-size: 3.0em;
+	margin: 10px;
 }
 
 #mark{
 	color: black;
 	text-align: center;
+
+
 }
 
 #front{
 	color: black;
 	text-align: center;
+
 }
 
 
@@ -157,27 +115,28 @@ body{
 
 .cuerpo1{
 	background-color: white;
-	/*width: 1200px;*/
-	/*height: 150px;*/
 	margin:auto;
 	text-align: center;
 	border-radius: 10px;
+	margin-bottom: -5px;
+	padding-bottom: 10px;
+
 
 }
 
 
 #sobre_mi{
 	
-	/*font-size: 40px;*/
+	font-size: 3.0em;
+	margin-bottom: 10px;
 
 }
 .lista_personal{
 
 	background-color: white;
-	/*width: 1200px;*/
-	/*height: 150px;*/
 	display: block;
 	border-radius: 10px;
+
 	
 	
 
@@ -186,10 +145,8 @@ body{
 
 .lista_personal ul li {
 	display: block;
-	/*font-size: 1.5em;*/
-	
-	/*padding: 1px 10px;*/
-	
+	font-size: 2.7em;
+
 	}
 
 
@@ -197,82 +154,82 @@ body{
 
 display: block;
 
+	margin-bottom: 10px;
+	
+
+
 }
 
 .cuerpo2{
 	background-color: white;
-	/*width: 1200px;*/
-	/*height: 150px;*/
 	margin:auto;
 	text-align: center;
 	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: -5px;
+	
+	
+
+}
+ p {
+	font-size: 2.5em;
 	
 
 }
 
 #habilidades{
 	
-	/*font-size: 2m;*/
-	;
+	font-size: 3em;
 
 }
 
 .lista_habilidades{
 	background-color: white;
-	/*width: 1200px;*/
-	/*height: 1000px;*/
 	display: block;
 	border-radius: 10px;
-	
-	
-
- 
-	
-	
-
 	}
 
 
 .lista_habilidades ul li {
 	display: block;
-	/*font-size: 1.5em;*/
 	padding: 1px 10px;
-	/*border-bottom: solid 0.5px red;*/
-  line-height: 2; /*interlineado*/
+    line-height: 2; /*interlineado*/
+    font-size: 2.7em;
 	}
 
 #habilidades_lista{
 	
 display: block;
-/*border-bottom: solid 1px red;*/ 
 
 }
+
+
 .div_boton{
 	text-align: center;
-	margin-bottom: 18px;
-	padding-bottom: 10px;
+	margin-bottom: 10px;
 	border-radius: 10px;
+	padding: 5px 5px;
 	
 }
 
 
 .readMore_btn {
-  background-color: #bc3f3f;
-  border: none;
-  border-radius: 35px;
-  color: white;
-  padding: 5px 10px;
-  /*font-size: 1.2em;*/
-  box-shadow: 0px 0px 10px 0px #4caf50;
-  cursor: pointer;
-
-
+	height: 60px;
+	width: 250px;
+    background-color: green;
+    border: none;
+    border-radius: 35px;
+    color: white;
+    font-size: 2.2em;
+    box-shadow: 0px 0px 10px 0px #4caf50;
+    cursor: pointer;
+  
   
 }
 
 .readMore_btn:hover {
   box-shadow: none;
-  background-color:  #bc3f3f;
+  background-color:  green;
   color: #fff;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
   
@@ -293,24 +250,21 @@ display: block;
 
 .cuerpo3{
 	background-color: white;
-	/*width: 1200px;*/
-	/*height: 150px;*/
 	margin:auto;
 	text-align: center;
 	border-radius: 10px;
+	margin-bottom: -5px;
 	
 }
 
 #experiencia{
 	
-	/*font-size: 2em;*/
+	font-size: 3.0em;
 
 }
 
 .lista_experiencia{
 	background-color: white;
-	/*width: 1200px;*/
-	/*height: 1000px;*/
 	display: block;
 	border-radius: 10px;
 	
@@ -318,9 +272,9 @@ display: block;
 
 .lista_experiencia ul li {
 	display: block;
-	/*font-size: 1.5em;*/
 	padding: 1px 10px;
   line-height: 2; /*interlineado*/
+  font-size: 2.7em;
 
 	}
 
@@ -328,30 +282,11 @@ display: block;
 	border-bottom: solid 0.5px red;
 }
 
-	#experiencia_lista{
-
-display: block;
-/*border-bottom: solid 3px red;*/ 
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
 
 .contact_form{  
- /* width: 460px;*/
-  /*width: 800px; */
   height: auto;
   margin: /*80px*/ auto;
+  margin-top: -30px;
   text-align: center;
   border-radius: 10px;  
   padding-top: 30px;
@@ -372,6 +307,7 @@ input{
   margin-top: 10px;  
   padding-left: 10px;
   margin-bottom: 20px; 
+  font-size: 1.0em;
 }
 
 
@@ -387,12 +323,14 @@ textarea{
   padding-left: 10px;
   margin-bottom: 20px; 
   padding-top: 15px; 
+  font-size: 1.0em;
 }
 
 
 label{
   display: block; 
   float: center;  
+
 }
 
 
@@ -423,28 +361,27 @@ span{
 
 
 .aviso{
-  font-size: 13px;  
+  font-size: 1.5em;  
   color: #0e0e0e;  
 }
 
-
-h1{
-  font-size: 39px;  
-  text-align: letf; 
+.formulario h1 {
+  font-size: 2.5em;  
+  text-align: left; 
   padding-bottom: 20px; 
   color: #ab4493;
 }
 
 
-h3{
-  font-size: 16px; 
+.formulario h3{
+  font-size: 2.5em; 
   padding-bottom: 30px;
   color: #0e0e0e;   
 }
 
 
-p{
-  /*font-size: 14px;*/ 
+.formulario p{
+  font-size: 2.0em; 
   color: #0e0e0e; 
 }
 
@@ -471,4 +408,94 @@ p{
 }
 
 
-/* creado por javiniguez.com, Julio 2019 */
+@media screen and (min-width: 720px){
+ 
+.menu nav ul li {
+		font-size: 2.5vh;
+}
+.nombre h1{
+	font-size: 90px;
+}
+
+#foto{
+	display: block;
+	margin: auto;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+
+}
+.nombre h1{
+	font-size: 3.0em;
+	
+}
+.nombre p{
+	font-size: 2.0em;
+}
+
+#sobre_mi{
+	font-size: 2.0em;
+}
+.lista_personal ul li {
+	font-size: 1.3em;
+
+}
+p {
+	font-size: 1.0em;
+}
+#habilidades{
+	font-size: 2.0em;
+}
+.lista_habilidades ul li {
+    font-size: 1.3em;
+	}
+
+.readMore_btn {
+	height: 40px;
+	width: 150px;
+	font-size: 1.0em;
+  
+}
+#experiencia{
+	
+	font-size: 2.0em;
+
+}
+
+.lista_experiencia ul li {
+  font-size: 1.3em;
+}
+
+
+.contact_form{  
+  margin-top: -5px;
+}
+input{
+  font-size: 0.5em;
+}
+textarea{
+  font-size: 0.5em;
+}
+
+button{
+  height: 45px; 
+  width: 220px;   
+}
+.aviso{
+  font-size: 0.5em;  
+  color: #0e0e0e;  
+}
+.formulario h1 {
+  font-size: 1.7em;  
+  text-align: center;
+}
+
+.formulario h3{
+  font-size: 1.5em;   
+}
+
+.formulario p{
+  font-size: 1.3em; 
+}
+
+}
