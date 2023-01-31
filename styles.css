@@ -193,9 +193,16 @@ display: block;
 .lista_habilidades ul li {
 	display: block;
 	padding: 1px 10px;
-    line-height: 2; /*interlineado*/
-    font-size: 2.7em;
+        line-height: 2; /*interlineado*/
+        font-size: 2.7em;
+	color:#ab4493;
 	}
+.lista_habilidades p{
+	color:#ab4493;
+}
+
+
+
 
 #habilidades_lista{
 	
@@ -216,32 +223,30 @@ display: block;
 .readMore_btn {
 	height: 60px;
 	width: 250px;
-    background-color: green;
-    border: none;
-    border-radius: 35px;
-    color: white;
-    font-size: 2.2em;
-    box-shadow: 0px 0px 10px 0px #4caf50;
-    cursor: pointer;
-  
-  
+        background-color: green;
+        border: none;
+        border-radius: 35px;
+        color: white;
+        font-size: 2.2em;
+        box-shadow: 0px 0px 10px 0px #4caf50;
+        cursor: pointer;
 }
 
 .readMore_btn:hover {
-  box-shadow: none;
-  background-color:  green;
-  color: #fff;
-  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+       box-shadow: none;
+       background-color:  green;
+       color: #fff;
+       transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
   
 }
 
 .hideText {
-  display: none;
+       display: none;
   
 }
 
 .showText {
-  display: block;
+        display: block;
 
 }
 
@@ -273,8 +278,8 @@ display: block;
 .lista_experiencia ul li {
 	display: block;
 	padding: 1px 10px;
-  line-height: 2; /*interlineado*/
-  font-size: 2.7em;
+        line-height: 2; /*interlineado*/
+        font-size: 2.7em;
 
 	}
 
@@ -284,30 +289,30 @@ display: block;
 
 
 .contact_form{  
-  height: auto;
-  margin: /*80px*/ auto;
-  margin-top: -30px;
-  text-align: center;
-  border-radius: 10px;  
-  padding-top: 30px;
-  padding-bottom: 20px;  
-  background-color: #fbfbfb; 
-  padding-left: 30px; 
+       height: auto;
+       margin: /*80px*/ auto;
+       margin-top: -30px;
+       text-align: center;
+       border-radius: 10px;  
+       padding-top: 30px;
+       padding-bottom: 20px;  
+       background-color: #fbfbfb; 
+       padding-left: 30px; 
 }
 
 
 input{
-  background-color: #fbfbfb; 
-  width: 408px; 
-  height: 40px; 
-  border-radius: 5px;  
-  border-style: solid; 
-  border-width: 1px; 
-  border-color: #ab4493; 
-  margin-top: 10px;  
-  padding-left: 10px;
-  margin-bottom: 20px; 
-  font-size: 1.0em;
+       background-color: #fbfbfb; 
+       width: 408px; 
+       height: 40px; 
+       border-radius: 5px;  
+       border-style: solid; 
+       border-width: 1px; 
+       border-color: #ab4493; 
+       margin-top: 10px;  
+       padding-left: 10px;
+       margin-bottom: 20px; 
+       font-size: 1.0em;
 }
 
 
@@ -323,7 +328,7 @@ textarea{
   padding-left: 10px;
   margin-bottom: 20px; 
   padding-top: 15px; 
-  font-size: 1.0em;
+  font-size: 1.0em;	
 }
 
 
@@ -370,6 +375,7 @@ span{
   text-align: left; 
   padding-bottom: 20px; 
   color: #ab4493;
+  text-align: center;
 }
 
 
