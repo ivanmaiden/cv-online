@@ -1,507 +1,126 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
 body{
-	font-family: 'robotto', sans-serif;
-    background: #ab4493;
-	margin: 0;
-	padding: 0;
-		
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+p{ font-size: 1.25em;}
+ul{ list-style: none;}
+li{ font-size: 1.25em;}
 
-.contenedor_del_html{
-	width: 800px;
-	margin: auto;
-
-}
-
-
-.encavezado{
-	background-color: #5DE8D7; 
-	height: 50px;
-	margin:auto;
-	border-radius: 10px;
-	margin-bottom: 10px;
-}
-
-
-.menu  nav ul li{
-	font-size: 1.8em;
-	display:flex;
-	list-style: none;
-	float: left;
-	padding:1px 20px; /*espaciado*/
+header{
+	
+	background-color: rgb(245,245,245);
+	position: fixed;
+    width: 100%;
 
 	
+	/*flex-direction: column; /*un div debajo de otro*/
+	 
+	 
+}
+.container{
+    /*max-width: 1400px;*/
 
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 1.6em;
 }
 
-.menu nav ul li a{
-	color: black;
-	background-color: #F1F5D3 ;
-	text-decoration: none;
-    transition: opacity 300ms;
-    padding: 2px;
-    border: 1px solid #7F8079 ;
-    border-radius: 5px;
 
+header nav{
 
-  
+    
+    text-align: center;
+    
+}
 
-  }
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    
+}
 
-.menu nav ul li a:hover{
-	opacity: 0.6;/*para que cuando paso el cursor se ponga opaco*/
+header a:hover{
+    color: blueviolet;
 }
 
 
 
-.contenedor_retrato{
-	margin:auto;
-	background-color: ivory;
-	padding: 30px;
-	border-radius: 10px;
-	margin-bottom: 10px;
-
-
-
+.hero{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	 height: 90vh;
+	 background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("D:/Sublime Proyect/practica/prog.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
+.retrato{
+	
+	
+	text-align: center;
+
+}
 #foto{
-	display: block;
-	margin: auto;
+	
 	border-radius: 50%;
-	width: 350px;
-	height: 350px;
-
+	width: 250px;
+	height: 250px;
 }
+
+ 
 
 .nombre{
-	
-	background-color: ivory;
-	border-radius: 10px;
-
-
-
-	
-}
-.nombre h1{
-	font-size: 4.0em;
-	margin: 10px;
-
-
-}
-
-
-
-.nombre p{
-	font-size: 3.0em;
-	margin: 10px;
-}
-
-#mark{
-	color: black;
+	color: white;
 	text-align: center;
-
-
-}
-
-#front{
-	color: black;
-	text-align: center;
-
-}
-
-
-
-
-.cuerpo1{
-	background-color: white;
-	margin:auto;
-	text-align: center;
-	border-radius: 10px;
-	margin-bottom: -5px;
-	padding-bottom: 10px;
-
-
-}
-
-
-#sobre_mi{
-	
-	font-size: 3.0em;
-	margin-bottom: 10px;
-
-}
-.lista_personal{
-
-	background-color: white;
-	display: block;
-	border-radius: 10px;
-
-	
-	
-
-	
-}
-
-.lista_personal ul li {
-	display: block;
-	font-size: 2.7em;
-
-	}
-
-
-#sobre_mi_lista{
-
-display: block;
-
-	margin-bottom: 10px;
-	
-
-
-}
-
-.cuerpo2{
-	background-color: white;
-	margin:auto;
-	text-align: center;
-	border-radius: 10px;
-	margin-top: 10px;
-	margin-bottom: -5px;
-	
-	
-
-}
- p {
-	font-size: 2.5em;
-	
-
-}
-
-#habilidades{
-	
-	font-size: 3em;
-
-}
-
-.lista_habilidades{
-	background-color: white;
-	display: block;
-	border-radius: 10px;
-	}
-
-
-.lista_habilidades ul li {
-	display: block;
-	padding: 1px 10px;
-        line-height: 2; /*interlineado*/
-        font-size: 2.7em;
-	color:#ab4493;
-	}
-.lista_habilidades p{
-	color:#ab4493;
-}
-
-
-
-
-#habilidades_lista{
-	
-display: block;
-
-}
-
-
-.div_boton{
-	text-align: center;
-	margin-bottom: 10px;
-	border-radius: 10px;
-	padding: 5px 5px;
-	
-}
-
-
-.readMore_btn {
-	height: 60px;
-	width: 250px;
-        background-color: green;
-        border: none;
-        border-radius: 35px;
-        color: white;
-        font-size: 2.2em;
-        box-shadow: 0px 0px 10px 0px #4caf50;
-        cursor: pointer;
-}
-
-.readMore_btn:hover {
-       box-shadow: none;
-       background-color:  green;
-       color: #fff;
-       transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
-  
-}
-
-.hideText {
-       display: none;
-  
-}
-
-.showText {
-        display: block;
-
-}
-
-
-
-
-.cuerpo3{
-	background-color: white;
-	margin:auto;
-	text-align: center;
-	border-radius: 10px;
-	margin-bottom: -5px;
-	
-}
-
-#experiencia{
-	
-	font-size: 3.0em;
-
-}
-
-.lista_experiencia{
-	background-color: white;
-	display: block;
-	border-radius: 10px;
-	
-}
-
-.lista_experiencia ul li {
-	display: block;
-	padding: 1px 10px;
-        line-height: 2; /*interlineado*/
-        font-size: 2.7em;
-
-	}
-
-.descripcion {
-	border-bottom: solid 0.5px red;
-}
-
-
-.contact_form{  
-       height: auto;
-       margin: /*80px*/ auto;
-       margin-top: -30px;
-       text-align: center;
-       border-radius: 10px;  
-       padding-top: 30px;
-       padding-bottom: 20px;  
-       background-color: #fbfbfb; 
-       padding-left: 30px; 
-}
-
-
-input{
-       background-color: #fbfbfb; 
-       width: 408px; 
-       height: 40px; 
-       border-radius: 5px;  
-       border-style: solid; 
-       border-width: 1px; 
-       border-color: #ab4493; 
-       margin-top: 10px;  
-       padding-left: 10px;
-       margin-bottom: 20px; 
-       font-size: 1.0em;
-}
-
-
-textarea{
-  background-color: #fbfbfb; 
-  width: 405px; 
-  height: 150px; 
-  border-radius: 5px;  
-  border-style: solid; 
-  border-width: 1px; 
-  border-color: #ab4493; 
-  margin-top: 10px;  
-  padding-left: 10px;
-  margin-bottom: 20px; 
-  padding-top: 15px; 
-  font-size: 1.0em;	
-}
-
-
-label{
-  display: block; 
-  float: center;  
-
-}
-
-
-button{
-  height: 95px; 
-  padding-left: 5px;
-  padding-right: 5px;   
-  margin-bottom: 20px; 
-  margin-top: 10px;   
-  text-transform: uppercase;
-  background-color: #ab4493; 
-  border-color: #ab4493; 
-  border-style: solid; 
-  border-radius: 10px;  
-  width: 420px;   
-  cursor: pointer;
-}
-
-
-button p{
-  color: #fff; 
-}
-
-
-span{
-  color: #ab4493; 
-}
-
-
-.aviso{
-  font-size: 1.5em;  
-  color: #0e0e0e;  
-}
-
-.formulario h1 {
-  font-size: 2.5em;  
-  text-align: left; 
-  padding-bottom: 20px; 
-  color: #ab4493;
-  text-align: center;
-}
-
-
-.formulario h3{
-  font-size: 2.5em; 
-  padding-bottom: 30px;
-  color: #0e0e0e;   
-}
-
-
-.formulario p{
-  font-size: 2.0em; 
-  color: #0e0e0e; 
-}
-
-
-::-webkit-input-placeholder {
- color: #a8a8a8;
-}
-
-
-::-webkit-textarea-placeholder {
- color: #a8a8a8;
-}
-
-
-.formulario input:focus{
-  outline:0;
-  border: 1px solid #97d848;
-}
-
-
-.formulario textarea:focus{
-  outline:0;
-  border: 1px solid #97d848;
-}
-
-
-@media screen and (min-width: 720px){
+}	
  
-.menu nav ul li {
-		font-size: 1.8em;
-}
-.nombre h1{
-	font-size: 90px;
-}
-
-#foto{
-	display: block;
-	margin: auto;
-	border-radius: 50%;
-	width: 200px;
-	height: 200px;
-
-}
-.nombre h1{
-	font-size: 3.0em;
-	
-}
-.nombre p{
-	font-size: 2.0em;
-}
-
-#sobre_mi{
-	font-size: 2.0em;
-}
-.lista_personal ul li {
-	font-size: 1.3em;
-
-}
-p {
-	font-size: 1.0em;
-}
-#habilidades{
-	font-size: 2.0em;
-}
-.lista_habilidades ul li {
-    font-size: 1.3em;
-	}
-
-.readMore_btn {
-	height: 40px;
-	width: 150px;
-	font-size: 1.0em;
-  
-}
-#experiencia{
-	
-	font-size: 2.0em;
-
-}
-
-.lista_experiencia ul li {
-  font-size: 1.3em;
-}
 
 
-.contact_form{  
-  margin-top: -5px;
-}
-input{
-  font-size: 0.5em;
-}
-textarea{
-  font-size: 0.5em;
-}
 
-button{
-  height: 45px; 
-  width: 220px;   
-}
-.aviso{
-  font-size: 0.5em;  
-  color: #0e0e0e;  
-}
-.formulario h1 {
-  font-size: 1.7em;  
-  text-align: center;
-}
 
-.formulario h3{
-  font-size: 1.5em;   
-}
 
-.formulario p{
-  font-size: 1.3em; 
-}
 
-}
+
+
+
+
+
+
+/*
+
+@media (min-width: 850px){
+    .navegador {
+        position: fixed; /*para que quede fijo al hacer scroll*/
+       /* width: 100%;
+    }
